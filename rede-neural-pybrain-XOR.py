@@ -26,4 +26,9 @@ for i in range (1, 30000):
     erro = treino.train()
     if i % 1000 == 0:
         print("Erro --> " + str(erro))
+        
+print(rede_neural.activate([0,0]))
+print(rede_neural.activate([0,1]))
+print(rede_neural.activate([1,0]))
+print(rede_neural.activate([1,1]))
 
